@@ -34,7 +34,7 @@
 - Quick and dirtz approach, better to fix at source
 - dont use unless needed
 
-### snaopshots ::file
+### snaopshots 
 - picture of a table at a certain moment of time
 - can tell it what table has at that point when you take the snaopshot
 - Useful to track history of columns that overwrite themselves
