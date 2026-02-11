@@ -26,7 +26,7 @@ select
     cast(total_amount as numeric) as total_amount,
     cast(payment_type as integer) as payment_type
 
-from {{ source('staging', 'green_tripdata') }}
+from {{ source('raw_data', 'green_tripdata') }}
 
 -- Filter out records with null vendor_id (data quality requirement)
 where vendorid is not null
